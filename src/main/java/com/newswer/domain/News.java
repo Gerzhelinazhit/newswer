@@ -14,6 +14,8 @@ public class News {
     @JoinColumn(name = "user_id")
     private User author;
 
+    private String filename;
+
     public News() {
     }
 
@@ -58,5 +60,13 @@ public class News {
 
     public void setAuthor(User author) {
         this.author = author;
+    }
+
+    public String getFilename() {
+        return filename;
+    }
+
+    public void setFilename(String filename) {
+        this.filename = filename;
     }
 }
