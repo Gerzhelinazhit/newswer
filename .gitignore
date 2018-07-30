@@ -3,4 +3,4 @@
 target
 .idea
 uploads
-resource/application.properties
+.properties
